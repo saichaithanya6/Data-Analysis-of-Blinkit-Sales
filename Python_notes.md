@@ -169,3 +169,27 @@ In this example:
 
 Car is the blueprint (class) that defines the structure and behavior of all cars.
 car1 and car2 are objects (instances) created based on the blueprint, each with its own unique attribute values (color, make, model).
+
+
+
+
+
+# Abstract Class
+In Python, an abstract method is a method declared in an abstract class but doesn't have an implementation. It serves as a blueprint for subclasses, ensuring they provide their own implementation of the method.
+
+from abc import ABC, abstractmethod
+class Shape(ABC):
+
+    @abstractmethod
+    def area(self):
+        pass
+
+  Subclasses must implement the abstract method.
+
+class Square(Shape):
+
+    def __init__(self, side):
+        self.side = side
+
+    def area(self):
+        return self.side ** 2
