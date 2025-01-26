@@ -193,3 +193,26 @@ class Square(Shape):
 
     def area(self):
         return self.side ** 2
+
+
+
+
+# Concrete Class
+A concrete class is a class that:
+Provides a full implementation of its methods.
+Can be instantiated to create objects.
+Often serves as a specific implementation of a general interface or abstract class.
+
+Key Characteristics:
+Implements all required methods.
+Can be used directly to create objects.
+
+# Context Class
+A context class is a class that:
+Manages or orchestrates how a strategy (or behavior) is applied.
+Relies on one or more concrete classes (or strategies) to perform specific tasks.
+Delegates work to other classes without knowing their implementation details.
+
+Key Characteristics:
+Doesn't implement the actual logic itself but uses other classes (strategies) to perform specific tasks.
+Adds flexibility by allowing you to change behaviors dynamically by switching the strategy.
