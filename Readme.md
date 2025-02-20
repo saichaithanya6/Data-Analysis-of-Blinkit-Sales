@@ -1,8 +1,8 @@
-#### Blink it Sales Data Analysis
+### Blink it Sales Data Analysis
 
 This project analyzes Blinkit's 2024 sales data, utilizing comprehensive dashboards to provide insights into sales performance.
 
-## Sales Insights: Key Findings
+#### Sales Insights: Key Findings
 
 ![image](https://github.com/user-attachments/assets/a8c07033-2633-47ad-82bb-8b25b83c2e3c)
 
